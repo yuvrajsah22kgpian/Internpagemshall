@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>internform</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="stylesheet" type="text/css" href="css/opensans-font.css">
+<link rel="stylesheet" type="text/css" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+
+<link rel="stylesheet" href="css/style.css" />
+<meta name="robots" content="noindex, follow">
+<script nonce="851cacea-c735-4f35-8acb-6968d7187309">(function(w,d){!function(bw,bx,by,bz){bw[by]=bw[by]||{};bw[by].executed=[];bw.zaraz={deferred:[],listeners:[]};bw.zaraz.q=[];bw.zaraz._f=function(bA){return function(){var bB=Array.prototype.slice.call(arguments);bw.zaraz.q.push({m:bA,a:bB})}};for(const bC of["track","set","debug"])bw.zaraz[bC]=bw.zaraz._f(bC);bw.zaraz.init=()=>{var bD=bx.getElementsByTagName(bz)[0],bE=bx.createElement(bz),bF=bx.getElementsByTagName("title")[0];bF&&(bw[by].t=bx.getElementsByTagName("title")[0].text);bw[by].x=Math.random();bw[by].w=bw.screen.width;bw[by].h=bw.screen.height;bw[by].j=bw.innerHeight;bw[by].e=bw.innerWidth;bw[by].l=bw.location.href;bw[by].r=bx.referrer;bw[by].k=bw.screen.colorDepth;bw[by].n=bx.characterSet;bw[by].o=(new Date).getTimezoneOffset();if(bw.dataLayer)for(const bJ of Object.entries(Object.entries(dataLayer).reduce(((bK,bL)=>({...bK[1],...bL[1]})))))zaraz.set(bJ[0],bJ[1],{scope:"page"});bw[by].q=[];for(;bw.zaraz.q.length;){const bM=bw.zaraz.q.shift();bw[by].q.push(bM)}bE.defer=!0;for(const bN of[localStorage,sessionStorage])Object.keys(bN||{}).filter((bP=>bP.startsWith("_zaraz_"))).forEach((bO=>{try{bw[by]["z_"+bO.slice(7)]=JSON.parse(bN.getItem(bO))}catch{bw[by]["z_"+bO.slice(7)]=bN.getItem(bO)}}));bE.referrerPolicy="origin";bE.src="/cdn-cgi/zaraz/s.js?z="+btoa(encodeURIComponent(JSON.stringify(bw[by])));bD.parentNode.insertBefore(bE,bD)};["complete","interactive"].includes(bx.readyState)?zaraz.init():bw.addEventListener("DOMContentLoaded",zaraz.init)}(w,d,"zarazData","script");})(window,document);</script></head>
+<body>
+<div class="page-content">
+<div class="form-v1-content">
+<div class="wizard-form">
+<form class="form-register" action="#" method="post">
+<div id="form-total">
+
+<h2>
+<p class="step-icon"><span>01</span></p>
+<span class="step-text">Company Infomation</span>
+</h2>
+<section>
+<div class="inner">
+<div class="wizard-header">
+<h3 class="heading">company information</h3>
+<p>Please enter information regarding company </p>
+</div>
+<div class="form-row">
+<div class="form-holder">
+<fieldset>
+<legend>Company Name</legend>
+<input type="text" class="form-control" id="Company name" name="Company name" placeholder="Company name" required>
+</fieldset>
+</div>
+</div>
+<div class="form-row">
+<div class="form-holder form-holder-2">
+<fieldset>
+<legend>Position</legend>
+<input type="text" name="Position" id="Position" class="form-control" placeholder="Position" required>
+</fieldset>
+</div>
+</div>
+<div class="form-row">
+<div class="form-holder form-holder-2">
+<fieldset>
+<legend>Company Information</legend>
+<input type="text" class="form-control" id="Company Information" name="Company Information" placeholder="Company Information" required>
+</fieldset>
+</div>
+</div>
+</div>
+
+</section>
+
+<h2>
+<p class="step-icon"><span>02</span></p>
+<span class="step-text">Position Information</span>
+ </h2>
+<section>
+<div class="inner">
+<div class="wizard-header">
+<h3 class="heading">Position information</h3>
+<p>Please enter  infomation regarding positions and proceed to the next step</p>
+</div>
+
+<div class="form-row">
+<div class="form-holder">
+<fieldset>
+<legend>Number of Seats</legend>
+<input type="text" class="form-control" id="Number of Seats" name="Number of Seats" placeholder="Number of Seats" required>
+</fieldset>
+</div>
+</div>
+<div class="form-row">
+<div class="form-holder">
+<fieldset>
+<legend>Pre-requisite</legend>
+<input type="text" class="form-control" id="Pre-requisite" name="Pre-requisite" placeholder="Pre-requisite" required>
+</fieldset>
+</div>
+</div>
+<div class="form-row">
+<div class="form-holder">
+<fieldset>
+<legend>Position Information </legend>
+<textarea class="form-control" id="Position Information" rows="3" style="width: 400px;" name="Position Information" placeholder="Position Information">
+  </textarea>
+</fieldset>
+</div>
+</div>
+</div>
+</section>
+
+<h2>
+<p class="step-icon"><span>03</span></p>
+<span class="step-text">Related Document</span>
+</h2>
+<section>
+<div class="inner">
+<div class="wizard-header">
+<h3 class="heading">Related Document</h3>
+<p>Please enter infomation for the documents to be submitted.</p>
+</div>
+<div class="form-row">
+<div class="form-holder">
+<fieldset>
+<legend>Related documents </legend>
+<textarea class="form-control" id="Related Documents" rows="5" style="width: 400px;" name="Related Documents" placeholder="Related Documents"></textarea>
+</fieldset>
+</div>
+</div>
+</div>
+</section>
+</div>
+</form>
+</div>
+</div>
+</div>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery.steps.js"></script>
+<script src="js/main.js"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"79e8a6757d08a3b7","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2023.2.0","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>
